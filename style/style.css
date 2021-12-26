@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    background-color: black;
+    background-image: rgba (255,255,0,0.5) url("../img/multfilm_lyagushka_32117.jpg");
+    height: 683px;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #11e71c;
+    display: flex;
+}
+.row{
+    width: 1000px;
+    background-color: wheat;
+    margin: 0 -10px;
+    display: flex;
+    justify-content: center;
+}
+.subrow{
+    width: 800px;
+    display: flex;
+    padding: 15px;
+    background-color: brown;
+    justify-content: space-between;
+}
+.col-4{
+    width: 25%;
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+
+}
+.smol-box{
+    background-color: aquamarine;
+    border: 2px solid red;
+    padding: 15px;
+    text-align: center;
+
+}
+.pumba{
+    width: 50px;
+}
